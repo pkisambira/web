@@ -1,0 +1,39 @@
+body{
+  background: gray;
+}
+#content{
+  background-color: blue;
+  width:86%;
+}
+#sidebar{
+  width: 13%;
+  background-color: brown;
+  height: 100%;
+  float: right;
+}
+#sidebar a{
+  color: white;
+}
+.menu{
+  background-color: blue;
+}
+.menuitem{
+  background-color: lime;
+  display: inline-block;
+  position: relative;
+}
+.menuitem a{
+  padding: 6px;
+  display: block;
+  text-decoration: none;
+}
+.submenu{
+  position: absolute;
+  display: none;
+  background-color: white;
+  min-width: 100px;
+  z-index: 1;
+}
+.menuitem:hover .submenu {
+  display: block;
+}

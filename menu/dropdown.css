@@ -1,0 +1,11 @@
+.submenu{
+ display: none;
+ background-color: gray;
+ width: 120px;
+}
+.menu:hover .submenu{
+  display: block;
+}
+.submenu a{
+  display: block;
+}
